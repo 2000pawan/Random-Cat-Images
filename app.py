@@ -28,7 +28,7 @@ if st.button("Load Cats"):
         cols = st.columns(3)
         for index, cat in enumerate(cats):
             with cols[index % 3]:
-                st.image(cat["url"], caption=f"Cat {index+1}", use_column_width=True)
+                st.image(cat["url"], caption=f"Cat {index+1}", use_container_width=True)
     else:
         st.write("No cats found.")
 
