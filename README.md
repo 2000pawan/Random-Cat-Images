@@ -32,8 +32,6 @@ streamlit run app.py
 |-- README.md  # Documentation
 ```
 
-## Screenshot
-![Cat Gallery](https://via.placeholder.com/600x300?text=Cat+Gallery+Preview)
 
 ## Future Enhancements
 - Add **pagination** for loading more images.
